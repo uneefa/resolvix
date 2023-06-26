@@ -42,3 +42,17 @@ Options:
   -workers  int      Number of workers (default 10)
   -h                 Show this help message
 ```
+
+## Where can I get a good list of DNS servers?
+
+- [MassDNS](https://github.com/blechschmidt/massdns) resolvers via [this link](https://raw.githubusercontent.com/blechschmidt/massdns/master/lists/resolvers.txt)
+
+  >```sh
+  >curl -s https://raw.githubusercontent.com/blechschmidt/massdns/master/lists/resolvers.txt | resolvix
+  >```
+
+- Public DNS Server List via [this link](https://public-dns.info/nameservers.txt)
+
+  >```sh
+  >curl -s https://public-dns.info/nameservers.txt | resolvix
+  >```
